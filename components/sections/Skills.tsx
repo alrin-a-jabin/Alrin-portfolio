@@ -93,7 +93,6 @@ export default function Skills() {
           return (
             <motion.div 
               key={skillCategory.category} 
-              variants={itemVariants}
               className={styles.skillCard}
             >
               <div className={styles.categoryHeader}>

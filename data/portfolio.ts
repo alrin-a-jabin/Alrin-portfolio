@@ -65,42 +65,85 @@ export const projects: Project[] = [
   {
     id: "1",
     title: "Virtual Classroom Platform",
-    description: "Full-featured virtual classroom platform with real-time video conferencing and interactive whiteboard. Built with React.js and  integration.",
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe", "Tailwind CSS"],
-    imageUrl: "/projects/ecommerce.jpg",
-    githubUrl: "https://github.com/yourusername/ecommerce",
-    liveUrl: "https://ecommerce-demo.vercel.app",
+    description:
+      "Scalable real-time virtual classroom platform supporting live sessions, student dashboards, and secure authentication. Designed for enterprise-scale usage with cloud-native architecture.",
+    technologies: [
+      "React",
+      "Node.js",
+      "AWS Lambda",
+      "AWS Cognito",
+      "GraphQL",
+      "DynamoDB",
+      "WebSockets",
+    ],
+    imageUrl: "/projects/virtual-classroom.jpg",
     featured: true,
   },
   {
     id: "2",
-    title: "Project Management Tool",
-    description: "Collaborative project management application with real-time updates, task tracking, and team communication features. Supports multiple workspaces.",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Redis", "Material-UI"],
-    imageUrl: "/projects/project-mgmt.jpg",
-    githubUrl: "https://github.com/yourusername/project-mgmt",
-    liveUrl: "https://project-mgmt-demo.com",
+    title: "Lobby Dashboard (Student Platform)",
+    description:
+      "High-performance student dashboard enabling real-time data access and personalized experiences. Built using serverless architecture with strong focus on scalability and cost efficiency.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "AWS Lambda",
+      "API Gateway",
+      "DynamoDB",
+      "AWS AppSync",
+    ],
+    imageUrl: "/projects/lobby-dashboard.jpg",
     featured: true,
   },
   {
     id: "3",
-    title: "AI Content Generator",
-    description: "AI-powered content generation tool using OpenAI API. Features include content templates, SEO optimization, and multi-language support.",
-    technologies: ["Next.js", "OpenAI", "Tailwind CSS", "Supabase", "Vercel"],
-    imageUrl: "/projects/ai-content.jpg",
-    githubUrl: "https://github.com/yourusername/ai-content",
+    title: "Allied Modular Drawing Tool",
+    description:
+      "Advanced CAD-like drawing and editing tool with smooth interactions and modular architecture. Delivered rich UX using 3D rendering and optimized state management.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Three.js",
+      "Canvas API",
+      "TypeScript",
+    ],
+    imageUrl: "/projects/drawing-tool.jpg",
     featured: true,
   },
   {
     id: "4",
-    title: "Analytics Dashboard",
-    description: "Real-time analytics dashboard with interactive charts, custom reports, and data visualization. Handles large datasets efficiently.",
-    technologies: ["React", "D3.js", "FastAPI", "PostgreSQL", "Docker"],
-    imageUrl: "/projects/analytics.jpg",
-    githubUrl: "https://github.com/yourusername/analytics",
+    title: "Cloud-Native Microservices Platform",
+    description:
+      "Enterprise-grade microservices platform built with Node.js and deployed on AWS EKS. Focused on reliability, observability, and automated CI/CD workflows.",
+    technologies: [
+      "Node.js",
+      "AWS EKS",
+      "Docker",
+      "Kubernetes",
+      "Helm",
+      "GitHub Actions",
+      "Datadog",
+    ],
+    imageUrl: "/projects/microservices.jpg",
+    featured: false,
+  },
+  {
+    id: "5",
+    title: "Inventory & Tracking Management System",
+    description:
+      "Full-stack inventory and tracking solution used for managing stock and volunteer-driven distribution workflows with optimized UI performance.",
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "REST APIs",
+      "AWS S3",
+    ],
+    imageUrl: "/projects/inventory.jpg",
     featured: false,
   },
 ];
+
 
 export const skills: Skill[] = [
   {

@@ -55,8 +55,8 @@ export default function Header() {
         isScrolled && styles.visible
       )} />
 
-      <nav className="container mx-auto px-6 max-w-7xl">
-        <div className="flex items-center justify-between h-20">
+      <nav>
+        <div className={styles.navbar}>
           {/* Logo */}
           <Link
             href="#home"

@@ -20,6 +20,20 @@
     backdrop-filter: blur(24px);
   }
 }
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+
+  @media (min-width: 640px) {
+    padding: 1rem 2rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 1.5rem 3rem;
+  } 
+}
 
 // Animated top accent line
 .accentLine {
